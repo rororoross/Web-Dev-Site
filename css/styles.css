@@ -42,6 +42,103 @@ table {
 	border-spacing: 0;
 }
 
+/* Color Pallete */
+
+/*
+Blue: #248c91
+Yellow: #d5d87d
+Red: #d75f5d
+*/
+
+/* Font Families */
+
+/*
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+*:focus {
+	outline: 0;
+}
+
 body {
-	background-color: red;
+	background-color: #248c91;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+}
+
+
+
+/* Header */
+
+.header-container {
+	width: 1000px;
+	display: block;
+	margin: 0 auto;
+	padding-top: 14px;
+}
+
+.home-header {
+	background-color: #d5d87d;
+	height: 20vh;
+	min-height: 200px;
+	width: 100%;
+}
+
+.home-header h1 {
+	font-size: 6rem;
+	font-weight: 900;
+	padding-left: 200px;
+	padding-top: 10px;
+}
+
+.home-header h2 {
+	color: #d75f5d;
+	font-style: italic;
+	font-size: 1.25rem;
+	padding-top: 10px;
+	padding-left: 210px;
+}
+
+.logo {
+	position: absolute;
+}
+
+
+/* Intro Text */
+.home-intro {
+	width: 35%;
+	margin: 0 auto;
+	padding-top: 80px;
+	min-width: 500px;
+}
+
+.home-intro p {
+	line-height: 1.4rem;
+}
+
+.og-button {
+	background-color: #d5d87d;
+	border: none;
+	box-shadow: none;
+	border-radius: 8px;
+	color: white;
+	font-weight: 900;
+	font-size: 1.4rem;
+	width: 160px;
+	padding: 5px;
+	padding-bottom: 8px;
+	font-family: 'Source Sans Pro', sans-serif;
+	cursor: pointer;
+	margin: 0 auto;
+	display: block;
+	margin-top: 64px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Homepage Content */
+#home-content {
+
 }
