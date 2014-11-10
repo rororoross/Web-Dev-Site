@@ -168,7 +168,18 @@ a {
 
 
 
+footer {
+	height: 200px;
+	width: 100%;
+	clear: both;
+	position: relative;
+}
 
+footer p {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
 
 
 
