@@ -45,9 +45,7 @@ table {
 /* Color Pallete */
 
 /*
-Blue: #248c91
-Yellow: #d5d87d
-Red: #d75f5d
+
 */
 
 /* Font Families */
@@ -61,9 +59,9 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
-	background-color: #248c91;
+	background-color: #EFF7D0;
 	font-family: 'Source Sans Pro', sans-serif;
-	color: white;
+	color: #666;
 }
 
 /* Header */
@@ -75,25 +73,26 @@ body {
 }
 
 .home-header {
-	background-color: #d5d87d;
+	background-color: #EE4252;
 	height: 20vh;
 	min-height: 200px;
 	width: 100%;
 }
 
-.home-header h1 {
+.home-title {
 	font-size: 6rem;
 	font-weight: 900;
 	padding-left: 200px;
 	padding-top: 10px;
+	color: white;
 }
 
 .home-header h2 {
-	color: #d75f5d;
 	font-style: italic;
 	font-size: 1.25rem;
 	padding-top: 10px;
 	padding-left: 210px;
+	color: white;
 }
 
 .logo {
@@ -113,16 +112,17 @@ body {
 }
 
 .og-button {
-	background-color: #d5d87d;
+	background-color: #ffffff;
 	border: none;
 	box-shadow: none;
 	border-radius: 8px;
-	color: white;
-	font-weight: 900;
+	color: #EE4252;
+	font-weight: 700;
 	font-size: 1.4rem;
-	width: 160px;
-	padding: 5px;
-	padding-bottom: 8px;
+	letter-spacing: 0.25px;
+	width: 180px;
+	padding: 12px;
+	padding-bottom: 14px;
 	font-family: 'Source Sans Pro', sans-serif;
 	cursor: pointer;
 	margin: 0 auto;
@@ -142,10 +142,11 @@ a {
 }
 
 #home-content h3 {
-	padding-top: 8px;
-	font-weight: 900;
+	padding-top: 16px;
+	letter-spacing: 0.25px;
+	font-weight: 700;
 	font-size: 1.3rem;
-	color: #d75f5d;
+	color: #EE4252;
 }
 
 .item {
@@ -183,6 +184,82 @@ footer {
 	clear: both;
 	position: relative;
 }
+
+
+
+
+
+
+
+/* Sublime Text */
+
+.item-name {
+	font-size: 6rem;
+	font-weight: 900;
+	padding-left: 220px;
+	padding-top: 30px;
+	color: white;
+}
+
+.item-header-logo {
+	padding-top: 20px;
+}
+
+.item-nav {
+	padding-top: 80px;
+	float: left;
+}
+
+.item-list {
+	padding-left: 24px;
+}
+
+.item-list li {
+	font-size: 1.4rem;
+	line-height: 2rem;
+}
+
+li.line-indent-1 {
+	padding-left: 25px;
+	line-height: 1.4rem;
+	font-size: 1.1rem;
+}
+
+li.line-indent-2 {
+	padding-left: 50px;
+	line-height: 1.4rem;
+	font-size: 1rem;
+}
+
+/* Sublime Text About */
+
+.about {
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+
+.about p {
+	line-height: 1.4rem;
+	color: #503967;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Media Queries */
 
