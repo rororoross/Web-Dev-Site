@@ -140,5 +140,70 @@ a {
 
 /* Homepage Content */
 #home-content {
-
+	width: 1400px;
+	margin: 0 auto;
+	padding-top: 80px;
 }
+
+#home-content h3 {
+	padding-top: 8px;
+	font-weight: 900;
+	font-size: 1.3rem;
+	color: #d75f5d;
+}
+
+.item {
+	float: left;
+	text-align: center;
+	padding: 0 75px 0 75px;
+}
+
+.top-items, .middle-items {
+	clear: both;
+}
+
+.middle-items {
+	padding-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
