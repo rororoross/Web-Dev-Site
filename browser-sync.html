@@ -18,15 +18,15 @@
 <body>
 	<header class="home-header">
 		<div class="header-container">
-			<img class="logo item-header-logo" src="img/sublime-text-logo.png">
-			<h1 class="item-name">Sublime Text</h1>
+			<img class="logo item-header-logo" src="img/browsersync-logo.png">
+			<h1 class="item-name">BrowserSync</h1>
 		</div>
 	</header>
 	<div id="back-home"><a href="index.html">Home</a></div>
 
 <main class="about sublime">
 	<h4>tl;dr</h4>
-	<p class="tldr-text">Simply put, Sublime Text is an awesome text editor. It's customizable, has hundreds of useful packages, loads of themes, git integration, and more useful shortcuts than you can count.</p>
+	<p class="tldr-text">BrowserSync allows you to see live CSS changes not only on your computer, but across multiple devices. You can have live and automatic reloading on your desktop, laptop, tablet and phone all at once.</p>
 
 	<button class="og-button"><a href="http://www.sublimetext.com/" target="_blank">
 	Download</a>
@@ -40,94 +40,74 @@
  <div id="horizontalTab">
             <ul class="resp-tabs-list">
                 <li>Overview</li>
-                <li>Package Manager</li>
-                <li>Shortcuts</li>
+                <li>About</li>
+                <li>How to Use</li>
             </ul>
             <div class="resp-tabs-container">
                 <div id="overview">
-                	<p>After you have it downloaded and installed, open up the program and take a look around. The first thing I do when I start a new website project is change the layout view to 2 columns..</p>
-					<img class="screenshot" src="img/sublime-screen-1.jpg">
-					<p>In the menu, go to View -> Layout -> and select Columns: 2</p>
-					<img class="screenshot" src="img/sublime-screen-2.jpg">
-					<p>I then put my .html file on the left and the .css file on the right. If you want to move a file from one column to the other simply drag the tab over to the new column. Using this 2 column layout allows beginners to see the relationship between their HTML elements and CSS styling. </p></br></br>
-
-					<p>A few other useful things I use that they have listed on their site are:
-					</br></br>
-					Distraction Free Mode
-					</br></br>
-					When you need to focus, Distraction Free Mode is there to help you out. Distraction Free Mode is full screen, chrome free editing, with nothing but your text in the center of the screen. You can incrementally show elements of the UI, such as tabs and the find panel, as you need them.
-					</br></br>
-					You can enter Distraction Free Mode using the View/Enter Distraction Free Mode menu.
-					</br></br>
-					Instant Project Switch
-					</br></br>
-					Projects in Sublime Text capture the full contents of the workspace, including modified and unsaved files. You can switch between projects in a manner similar to Goto Anything, and the switch is instant, with no save prompts - all your modifications will be restored next time the project is opened.
-					</br></br>
-					I use projects for every site I make. It makes it easier to keep track of your files and allows you to start working on a different project quickly.
+                	<p>BrowserSync can drastically improve your workflow just because it does one thing well: automatically updates your CSS for you after every save. No more having to refresh your browser everytime you save your file to see the results. Another great thing BrowserSync does is to allow you to have your site open in multiple instances across several devices. You can have your site open on your desktop, tablet and phone all at once, and every save will refresh all of them simultaneously.</br></br>It also tracks your actions and mirrors them throughout your devices. So if you scroll on your desktop, your phone will automatically scroll as well. 
 
 					</p>
                 </div>
 
                 <div id="package">
-                    <p>So what exactly is a package manager? I like to think of it as like extensions in Chrome or Firefox. There community made addons that add functionality and customization..and they're free! The most popular package manager is Will Bond's <a href="https://packagecontrol.io/">Package Control</a>. At that site you can browse through the most popular packages and see what ones you like. You can also download themes there too.
-					</br></br>
-					One of the most popular packages is Emmet. Simply put, Emmet is a quick way to write HTML/CSS using snippets. Check out <a href="http://www.hongkiat.com/blog/html-css-faster-emmet/">Hong Kiat's run down.</a></br></br>
-					My other favorite packages that you should check out:</br>
-					Sublime Enhancements</br>
-					CSSComb</br>
-					Soda Theme</br>
-					BracketHighlighter</br>
-					SFTP</br>
-					Sass</br>
+                    <p> Action Sync</br>
+
+						Your scroll, click, refresh and form actions are mirrored to browsers while you test.</br></br>
+
+						 Code Sync</br>
+
+						Browsers are automatically updated as you change HTML, CSS, images and other project files.</br></br>
+
+						 Build Ready</br>
+
+						Easily integrated with task runners. Try our Grunt plugin or write your own.</br></br>
+
+						 Browser Support</br>
+
+						Instantly sync between your desktop, tablet and phone. Perfect for responsive designs.</br></br>
+
+						 Back-end Independence</br>
+
+						Ready to use with websites running on PHP, ASP, Rails and more. Fine with static files too.</br></br>
+
+						 Runs Anywhere</br>
+
+						Built on Node.js to support Windows, MacOS and Linux. Setup in less than 5 minutes.</br></br>
 
                     </p>
                 </div>
 
                 <div id="shorcuts">
-                    <p>My favorite part of Sublime Text is all of the useful shorcuts. There's a lot to learn, but they really make it a lot easier and are quite a time saver once they become second nature. I'll give you a few of my favorites:</br></br>
-					
-					Bookmarking:</br>
-					Use Ctrl+F2 or CMD+F2 to set as many bookmarks as you want. Then use F2 and SHIFT+F2 to jump back and forth between them. I really like this and it comes in handy when your file becomes thousands of lines of code long. For example, I usually have my CSS Media Queries bookmarked so I can jump to them when I need to.</br></br>
+                    <p>1. Install Node.js</br>
 
-					Select an entire Line:</br>
-					Use Ctrl+L or CMD+L to select an entire line. This allows you to move/delete lines easily.</br></br>
+						BrowserSync is a module for Node.js, a platform for fast network applications. There are convenient installers for MacOS, Windows and Linux.</br></br>
 
-					Find all instances:</br>
-					Say you have a CSS class name that is used 12 times throughout your HTML files and you want to change it. Instead of going through one-by-one, or using a find and replace you can have the cursor on the name and simply press Ctrl+D or CMD+D to find every instance of it. You can then type in the new name and it will change all of them.</br></br>
+						2. Install BrowserSync</br>
 
-					Select an element's content:</br>
-					Need to replace all the text in a paragraph element? Press Shift+Ctrl+A or Shift+Cmd+A to select an element's entire content and then type in your new stuff.</br></br>
+						The Node.js package manager (npm) is used to install BrowserSync from a repository. Open a terminal window and run the following command:</br>
 
-					Toggle Sidebar Visiblity:</br>
-					Press Ctrl+K+B (note: not all at once, press ctrl, then k, then b) to open and close the sidebar. This is useful and a time saver to hide your sidebar since you don't need it open most of the time.
+						npm install -g browser-sync</br></br>
+						You’re telling the package manager to download the BrowserSync files and install them globally so they’re available to all your projects.
+
+						3. Start BrowserSync</br></br>
+
+						A basic use is to watch all CSS files in the css directory and update connected browsers if a change occurs. Navigate your terminal window to a project and run the appropriate command:</br></br>
+
+						Static sites</br>
+						If you’re only using .html files, you’ll need to use the server mode. BrowserSync will start a mini-server and provide a URL to view your site.</br></br>
+
+						browser-sync start --server --files "css/*.css"</br></br>
+						Dynamic sites</br>
+						If you’re already running a local server with PHP or similar, you’ll need to use the proxy mode. BrowserSync will wrap your vhost with a proxy URL to view your site.</br></br>
+
+						browser-sync start --proxy "myproject.dev" --files "css/*.css"
                     </p>
                 </div>
             </div>
 </div>
         
  
-
-
-<!-- 	<article id="overview">
-	<p>After you have it downloaded and installed, open up the program and take a look around. The first thing I do when I start a new website project is change the layout view to 2 columns..</p>
-		<img class="screenshot" src="img/sublime-screen-1.jpg">
-	<p>In the menu, go to View -> Layout -> and select Columns: 2</p>
-		<img class="screenshot" src="img/sublime-screen-2.jpg">
-	<p>I then put my .html file on the left and the .css file on the right. If you want to move a file from one column to the other simply drag the tab over to the new column. Using this 2 column layout allows beginners to see the relationship between their HTML elements and CSS styling. </p>
-	</article>
-
-	<article id="package">
-p
-	</article>
-
-	<article id="shortcuts">
-s
-	</article>
-
-	<article id="conclusion">
-c
-	</article>
- -->
 
 	<footer>
 

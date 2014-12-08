@@ -321,7 +321,9 @@ li.line-indent-2 {
 	color: white;
 }
 
-
+.no-pad {
+	padding-top: 0px;
+}
 
 /* Accordion Styling */
 
